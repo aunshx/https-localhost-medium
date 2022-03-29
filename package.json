@@ -1,0 +1,25 @@
+{
+  "name": "https-localhost-medium-tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial on how to use HTTPS with localhost during local development",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "node-cron",
+    "scheduler"
+  ],
+  "author": "aunsh.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-sanitizer": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
