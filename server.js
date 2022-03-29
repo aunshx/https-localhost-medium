@@ -12,6 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 // Mount express-sanitizer middleware here
 app.use(expressSanitizer());
 
+// Server static html file to check if the server is working 
 app.use("/", express.static("public"));
 
 const PORT = 8000;
